@@ -1,0 +1,18 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="TransparentText" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#00ffffff</item>
+    </style>
+
+    <style name="NavigationTheme" parent="AppTheme">
+        <item name="android:listDivider">@android:color/transparent</item>
+        <item name="listPreferredItemHeightSmall">32dp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_news_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gleb.rssnewstest.presentation.newslist.view.NewsListFragment">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/news_list_refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/vpPager">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/news_list_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <include
+        layout="@layout/empty_states_layout"
+        android:visibility="gone" />
+</RelativeLayout>

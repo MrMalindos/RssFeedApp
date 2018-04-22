@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">RssClient</string>
+
+    <!--Error Alert Dialog-->
+    <string name="error_dialog_title">Ой Вей!</string>
+    <string name="error_dialog_message">При загрузке данных произошла ошибка. Пожалуйста, проверьте подключение к сети.</string>
+    <string name="error_dialog_button">ОК</string>
+
+    <string name="more_info">Подробнее</string>
+
+    <!--TollBarTitles-->
+    <string name="toolbar_title_news">News</string>
+    <string name="link_btn">Open link</string>
+    <string name="add_favourite_btn">Add to favourite</string>
+    <string name="remove_favourite_btn">Remove from favourite</string>
+
+</resources>
